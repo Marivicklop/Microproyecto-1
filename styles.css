@@ -144,6 +144,7 @@ body {
   font-style: italic;
 }
 .normal-info {
+  color: #000000ad;
   margin: 3%;
 }
 .sep {
@@ -160,4 +161,75 @@ body {
   background-image: url(img/yo2.jpg);
   width: 36em;
   height: 36em;
+}
+
+.experiencesContainer {
+  display: flex;
+  width: 72em;
+  height: 25em;
+}
+
+.experienceSep1 {
+  background-color: white;
+  width: 24em;
+  height: 25em;
+}
+
+.imgExp {
+  width: 24em;
+  height: 12.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textExp {
+  width: 24em;
+  height: 12.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expTitles {
+  margin: 1em;
+  font-size: 2em;
+}
+
+.expInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.expLink1 {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: large;
+}
+
+.expLink2 {
+  text-decoration: none;
+  color: #00c2cb;
+  font-weight: 500;
+  font-size: large;
+}
+
+.expLink3 {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+}
+
+.experienceSep2 {
+  color: white;
+  width: 24em;
+  height: 25em;
+}
+
+.experienceSep3 {
+  background-color: #00c2cb;
+  width: 24em;
+  height: 25em;
 }
