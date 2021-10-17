@@ -161,6 +161,7 @@ body {
   background-image: url(img/yo2.jpg);
   width: 36em;
   height: 36em;
+  border: 10px solid #000000;
 }
 
 .experiencesContainer {
@@ -232,4 +233,64 @@ body {
   background-color: #00c2cb;
   width: 24em;
   height: 25em;
+}
+
+.formContainer {
+  display: flex;
+}
+
+.formData {
+  width: 50%;
+  background-color: black;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rrssForm {
+  background-color: black;
+  width: 50%;
+  height: 20em;
+  display: flex;
+}
+
+.rrss-links {
+  text-decoration: none;
+  margin: 2em;
+  color: white;
+}
+
+.labelsForm {
+  color: white;
+  padding-top: 2em;
+  margin: 1em;
+}
+
+.inputsForm {
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 20px;
+  border: 0px;
+}
+
+.btns {
+  display: flex;
+}
+
+.formBtn {
+  color: white;
+  border-radius: 40px;
+  border: 2px solid white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin: 2em;
+  margin-top: 3em;
+  display: flex;
+  padding: 1em;
+}
+
+.formBtn:hover {
+  cursor: pointer;
+  background-color: #00c2cb;
 }

@@ -35,3 +35,25 @@ carouselSlide.addEventListener("transitionend", () => {
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   }
 });
+
+/*const name = document.getElementById("nameInput");
+const email = document.getElementById("emailInput");
+const msjInput = document.getElementById("msjInput");
+*/
+const formContact = document.getElementById("formContact");
+
+formContact.addEventListener("submit", (e) => {
+  console.log(document.getElementById("sendBtn"));
+  var nameV = document.getElementById("nameInput").value;
+  var emailV = document.getElementById("emailInput").value;
+  var msjInput = document.getElementById("msjInput").value;
+  if (nameV == "" || emailV == "" || msjInput == "") {
+    alert(
+      "Something is wrong! Check out that you didn't left any blank fields"
+    );
+    return false;
+  } else {
+    alert("Great! Your message has been sent");
+    return true;
+  }
+});
