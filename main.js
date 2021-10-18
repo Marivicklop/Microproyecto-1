@@ -36,10 +36,6 @@ carouselSlide.addEventListener("transitionend", () => {
   }
 });
 
-/*const name = document.getElementById("nameInput");
-const email = document.getElementById("emailInput");
-const msjInput = document.getElementById("msjInput");
-*/
 const formContact = document.getElementById("formContact");
 
 formContact.addEventListener("submit", (e) => {
